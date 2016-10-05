@@ -59,7 +59,7 @@ freshDownloadView.showDownloadError();
 this Method will show error status,if this download error,you can allocate it;
 ##About me
 [Weibo](http://weibo.com/5851968288)
-Gmail:[](fengshengq@gmail.com)
+Gmail:fengshengq@gmail.com
 License
 -------
 
