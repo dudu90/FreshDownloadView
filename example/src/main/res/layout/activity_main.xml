@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006cc7"
+    tools:context="com.pitt.freshdownloadview.MainActivity">
+
+
+    <com.pitt.library.fresh.FreshDownloadView
+        android:id="@+id/pitt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#006cc7" />
+
+
+    <Button
+        android:id="@+id/bt_downloaded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pitt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#006cc7"
+        android:text="@string/start"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bt_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pitt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#006cc7"
+        android:text="@string/reset"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bt_download_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pitt"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#006cc7"
+        android:text="@string/show_error"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>
