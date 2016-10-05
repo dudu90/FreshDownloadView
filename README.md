@@ -3,6 +3,7 @@
 FreshDownloadView is a java library for Android，It's a good way to show download progress with a cool animtion.some inspiration are from
 [Dribbble](https://dribbble.com/shots/2939772--Daily-gif-Download)
 ##Demo
+![](https://github.com/dudu90/FreshDownloadView/blob/master/screen/screen.gif)
 ##Usage
 ###Setp 1:Add it to your project:
 ####gradle:
@@ -58,7 +59,7 @@ freshDownloadView.showDownloadError();
 this Method will show error status,if this download error,you can allocate it;
 ##About me
 [Weibo](http://weibo.com/5851968288)
-[Gmail](fengshengq@gmail.com)
+Gmail:[](fengshengq@gmail.com)
 License
 -------
 
