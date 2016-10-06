@@ -38,6 +38,7 @@ then add dependencies
 ```
 ## XML attributes
 | Name | Type | Default | Description |
+|:----:|:----:|:-------:|:-----------:|
 |circular_radius|dimension|80dp|the circular's radius|
 |circular_color|color|#4c99d9|the base circular's color|
 |circular_progress_color|color|#ffffff|It's the circular's color when the circular show progress,and it is also text color when show progress,it's the symbol'√' and '×''s color|
